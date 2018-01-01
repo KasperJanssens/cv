@@ -3,7 +3,12 @@
   "date of birth" : "12/06/1981",
   "address" : "Ottergemsesteenweg 354 9000 Gent",
   "telephone" : "+32 495 61 45 92",
-  "educatiion" : "Civil engineer in computer sciences, major in computer architecture",
+  "education" : {
+    "degree" : "Civil engineer in computer sciences, major in computer architecture",
+    "from" : "01/10/1999",
+    "to": "30/06/2004",
+    "school" : "University of Ghent"
+  },
   "languages" : {
      "english" : "excellent",
      "french" : "very good",
