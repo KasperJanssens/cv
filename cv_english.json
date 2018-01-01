@@ -1,94 +1,107 @@
 {
-  "Western Digital" : [
-    {
-       "function": "OCaml developer",
-       "from": "21/05/2013",
-       "to": "01/09/2014",
-       "description": ["Amplidata is a startup in the big data storage sector. They have developed a software product to store and retrieve data at high speeds and high safety, meaning that the chance of losing data as a cause of disasters is nearly non-existent.",
-"I was involved as a developer on the storage layer, which is mainly written in Ocaml. The main difficulties of the software lie in the technical complexity of the software itself, multiprocessing, high parallellism and the very high impact of bugs"]
-    },
-    {
-       "function" : "Haskell developer",
-       "from" : "01/09/2014",
-       "to" : "01/09/2016",
-       "description" : ["Amplidata got acquired by Western Digital. During that time the development of the next-gen storage product started. Due to the high parallelism and fast io subsystem in the language we chose to write it in Haskell."]
-    },
-    {
-       "function" : "Java Hadoop HDFS developer",
-       "from" : "01/09/2016",
-       "description" : ["Because of customer requirements to integrate with Hadoop we started development, together with a team at Microsoft, to write a HDFS extension so we could attach one of our storage systems to a datanode and use the data present in the storage system in Hadoop calculations."]
-    }
-  ],
- "Cegeka" : [
-  {
-    "function" : "Java developer",
-    "from" : "01/10/2010",
-    "to" : "20/05/2013",
-    "description" : ["Cegeka works in an agile, extreme programming way. I worked in a team that implements business-web applications at Argenta, in the insurances and banking sector.", "The overarching approach of the software is a domain driven design (DDD), with several bounded contexts to let multiple teams work more or less independently on the same project."]
- },
- {
-    "function" : "Android developer",
-    "from" : "01/09/2011",
-    "to" : "15/03/2013",
-    "description" : ["Cegeka's competence center are free to participate in and focus on a specific, usually 'new', technology. The approach is that a few people take out some time, mostly during off-hours, to discover the technology, and mainly to try to assert whether Cegeka would be capable of accepting a project with the technology. ", "I participated in the Android competence center and we developed a SocialText mobile application. SocialText is a Facebook-like application that mostly focuses on information sharing in a professional environment. They did not have any mobile applications, so the goal was to try to build one and if it turns out to be polished enough, sell it. A second team was working on an iOS application for SocialText at the same time."]
- }
-],
- "Proximus" : [
-   {
-     "function": "Java Developer",
-     "from": "01/04/2008",
-     "to": "30/09/2010",
-     "description" : ["When I arrived, Proximus was in a transition phase of going from a more point-to-point approach to a full-blown SOA approach to their middleware. Due to my experiences with SOA at Belgacom some time before, I was closely involved in this transition.",
-     "Technically, the focus is on using the Java-technologies on a WebLogic server, frameworks such as Hibernate, Spring, JAXB and Axis, Web Services in a SOA environment. Next to that, we also support and develop for legacy frameworks written in C++. The focus was mainly on the Java services and the integration with the overarching SOA architecture. We use J2EE and EJBs, mainly EJB 2."]
-   },
-   {
-     "function": "Operational Architect",
-     "from": "01/01/2007",
-     "to": "31/11/2007",
-     "description" : ["I was responsible for the set up, maintenance and extension of the end to end testing infrastructure of Proximus NV. This was mainly the set up of the UNIX servers, the Oracle and Sybase databases and the firewalls and network configuration. Also the set up of the WebLogic Application servers and the software infrastructure was my responsibility.", "Next to that, I was also responsible for writing and maintaining tools to improve the way of working on the end to end testing environment. This was mainly Java and some C++."]
-   },
-   {
-     "function": "C/C++ developer",
-     "from": "01/07/2006",
-     "to": "31/12/2006",
-     "description" : ["I worked at the team responsible for Charging, as a developer for C-code, C++ code and Unix scripts.", "Technologically, it was a C/C++ project on Sun Unix, with extensive use of Oracle and Sybase database systems."]
-   },
-   {
-     "function": "C/C++ developer",
-     "from": "21/01/2005",
-     "to": "30/06/2006",
-     "description" : ["I worked on the order management system middleware. This processed all transactions that were done in the belgacom shops.", "The application was set up as a service oriented architecture.", "The development of the application is completely in C and C++ on HP Unix. All database systems were Oracle."]
-   }
- ],
- "ING" : [
-   {
-     "function": "C++ Developer",
-     "from": "15/12/2007",
-     "to": "31/03/2008",
-     "description" : ["The application is meant to run on an ATM at offices of ING and is meant to perform all transactions except cash transaction, so no money withdrawal.",
-     "My role in the process was the analysis, design and implementation of the “hardware” part of the application, so the drivers for the card reader, the pin pad, the touch screen and the printer.","The end result was a multi-threaded COM-library, providing message queuing for the asynchronous operations, with several ways of usability provided towards the users of this COM library."]
-   }],
- "Thomson-Reuters": [
-   {
-     "function": "Java Developer",
-     "from": "01/10/2008",
-     "to": "31/01/2009",
-     "description" : ["Migrating a C++ fat client to a Java Swing fat client. In parallel with my java dev job at Proximus"]
-   },
-   {
-     "function": "C++ Developer",
-     "from": "15/12/2007",
-     "to": "31/11/2008",
-     "description" : ["Developing a self learning neural network for image recognition.", "The neural network needed to be able to recognize different fonts of letters, different alphabets(for example for Chinese publications) and be able to treat a lot of skew and dirt specks on the publications, as some are really low quality print, and get even lower quality after scanning them in.", "This was an early machine learning project, with mixed results"]
-   }
- ],
- "University Ghent": [
-   {
-     "function": "Writing a master's these",
-     "from": "01/10/2003",
-     "to": "30/06/2004",
-     "description" : ["Network processors are devices specifically designed to process network traffic. This is done through the extensive use of multiprocessing and multithreading. I implemented a firewall on the Intel IXP1200 network processor, which has six processors that do the work, and one processor that controls the other six.", "Each of the processors can run four threads, with easy context switching, one clock cycle, through a small amount of registers. This unfortunately limits the amount of variables used in programs, making very careful programming an absolute necessity.", "The controlling processor, or core, is responsible for handling all exceptions and tasks and contains the control structure. It is programmed in C. The other processors were programmed in assembler. All programming was pure embedded on the device.", "I implemented a firewall on this device, using Netfilter as a guidance beacon."]
-   }
- ]
+  "name" : "Kasper Janssens",
+  "date of birth" : "12/06/1981",
+  "address" : "Ottergemsesteenweg 354 9000 Gent",
+  "telephone" : "+32 495 61 45 92",
+  "educatiion" : "Civil engineer in computer sciences, major in computer architecture",
+  "languages" : {
+     "english" : "excellent",
+     "french" : "very good",
+     "dutch" : "mother tongue"
+  },
+  "hobbies" : ["Tango", "Salsa", "Programming", "Reading", "Gaming", "Gardening"],
+  "experiences": {
+      "Western Digital" : [
+        {
+           "function": "OCaml developer",
+           "from": "21/05/2013",
+           "to": "01/09/2014",
+           "description": ["Amplidata is a startup in the big data storage sector. They have developed a software product to store and retrieve data at high speeds and high safety, meaning that the chance of losing data as a cause of disasters is nearly non-existent.",
+    "I was involved as a developer on the storage layer, which is mainly written in Ocaml. The main difficulties of the software lie in the technical complexity of the software itself, multiprocessing, high parallellism and the very high impact of bugs"]
+        },
+        {
+           "function" : "Haskell developer",
+           "from" : "01/09/2014",
+           "to" : "01/09/2016",
+           "description" : ["Amplidata got acquired by Western Digital. During that time the development of the next-gen storage product started. Due to the high parallelism and fast io subsystem in the language we chose to write it in Haskell."]
+        },
+        {
+           "function" : "Java Hadoop HDFS developer",
+           "from" : "01/09/2016",
+           "description" : ["Because of customer requirements to integrate with Hadoop we started development, together with a team at Microsoft, to write a HDFS extension so we could attach one of our storage systems to a datanode and use the data present in the storage system in Hadoop calculations."]
+        }
+      ],
+     "Cegeka" : [
+      {
+        "function" : "Java developer",
+        "from" : "01/10/2010",
+        "to" : "20/05/2013",
+        "description" : ["Cegeka works in an agile, extreme programming way. I worked in a team that implements business-web applications at Argenta, in the insurances and banking sector.", "The overarching approach of the software is a domain driven design (DDD), with several bounded contexts to let multiple teams work more or less independently on the same project."]
+     },
+     {
+        "function" : "Android developer",
+        "from" : "01/09/2011",
+        "to" : "15/03/2013",
+        "description" : ["Cegeka's competence center are free to participate in and focus on a specific, usually 'new', technology. The approach is that a few people take out some time, mostly during off-hours, to discover the technology, and mainly to try to assert whether Cegeka would be capable of accepting a project with the technology. ", "I participated in the Android competence center and we developed a SocialText mobile application. SocialText is a Facebook-like application that mostly focuses on information sharing in a professional environment. They did not have any mobile applications, so the goal was to try to build one and if it turns out to be polished enough, sell it. A second team was working on an iOS application for SocialText at the same time."]
+     }
+    ],
+     "Proximus" : [
+       {
+         "function": "Java Developer",
+         "from": "01/04/2008",
+         "to": "30/09/2010",
+         "description" : ["When I arrived, Proximus was in a transition phase of going from a more point-to-point approach to a full-blown SOA approach to their middleware. Due to my experiences with SOA at Belgacom some time before, I was closely involved in this transition.",
+         "Technically, the focus is on using the Java-technologies on a WebLogic server, frameworks such as Hibernate, Spring, JAXB and Axis, Web Services in a SOA environment. Next to that, we also support and develop for legacy frameworks written in C++. The focus was mainly on the Java services and the integration with the overarching SOA architecture. We use J2EE and EJBs, mainly EJB 2."]
+       },
+       {
+         "function": "Operational Architect",
+         "from": "01/01/2007",
+         "to": "31/11/2007",
+         "description" : ["I was responsible for the set up, maintenance and extension of the end to end testing infrastructure of Proximus NV. This was mainly the set up of the UNIX servers, the Oracle and Sybase databases and the firewalls and network configuration. Also the set up of the WebLogic Application servers and the software infrastructure was my responsibility.", "Next to that, I was also responsible for writing and maintaining tools to improve the way of working on the end to end testing environment. This was mainly Java and some C++."]
+       },
+       {
+         "function": "C/C++ developer",
+         "from": "01/07/2006",
+         "to": "31/12/2006",
+         "description" : ["I worked at the team responsible for Charging, as a developer for C-code, C++ code and Unix scripts.", "Technologically, it was a C/C++ project on Sun Unix, with extensive use of Oracle and Sybase database systems."]
+       },
+       {
+         "function": "C/C++ developer",
+         "from": "21/01/2005",
+         "to": "30/06/2006",
+         "description" : ["I worked on the order management system middleware. This processed all transactions that were done in the belgacom shops.", "The application was set up as a service oriented architecture.", "The development of the application is completely in C and C++ on HP Unix. All database systems were Oracle."]
+       }
+     ],
+     "ING" : [
+       {
+         "function": "C++ Developer",
+         "from": "15/12/2007",
+         "to": "31/03/2008",
+         "description" : ["The application is meant to run on an ATM at offices of ING and is meant to perform all transactions except cash transaction, so no money withdrawal.",
+         "My role in the process was the analysis, design and implementation of the “hardware” part of the application, so the drivers for the card reader, the pin pad, the touch screen and the printer.","The end result was a multi-threaded COM-library, providing message queuing for the asynchronous operations, with several ways of usability provided towards the users of this COM library."]
+       }],
+     "Thomson-Reuters": [
+       {
+         "function": "Java Developer",
+         "from": "01/10/2008",
+         "to": "31/01/2009",
+         "description" : ["Migrating a C++ fat client to a Java Swing fat client. In parallel with my java dev job at Proximus"]
+       },
+       {
+         "function": "C++ Developer",
+         "from": "15/12/2007",
+         "to": "31/11/2008",
+         "description" : ["Developing a self learning neural network for image recognition.", "The neural network needed to be able to recognize different fonts of letters, different alphabets(for example for Chinese publications) and be able to treat a lot of skew and dirt specks on the publications, as some are really low quality print, and get even lower quality after scanning them in.", "This was an early machine learning project, with mixed results"]
+       }
+     ],
+     "University Ghent": [
+       {
+         "function": "Writing a master's these",
+         "from": "01/10/2003",
+         "to": "30/06/2004",
+         "description" : ["Network processors are devices specifically designed to process network traffic. This is done through the extensive use of multiprocessing and multithreading. I implemented a firewall on the Intel IXP1200 network processor, which has six processors that do the work, and one processor that controls the other six.", "Each of the processors can run four threads, with easy context switching, one clock cycle, through a small amount of registers. This unfortunately limits the amount of variables used in programs, making very careful programming an absolute necessity.", "The controlling processor, or core, is responsible for handling all exceptions and tasks and contains the control structure. It is programmed in C. The other processors were programmed in assembler. All programming was pure embedded on the device.", "I implemented a firewall on this device, using Netfilter as a guidance beacon."]
+       }
+     ]
+  }
 }
 
