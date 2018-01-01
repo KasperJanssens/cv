@@ -16,6 +16,14 @@
      "french" : "very good",
      "dutch" : "mother tongue"
   },
+  "programming languages" : {
+    "Java" : 80,
+    "C++" : 42,
+    "Haskell" : 70,
+    "OCaml" : 90,
+    "Scala" : 35,
+    "Kotlin" : 45
+  },
   "hobbies" : ["Tango", "Salsa", "Programming", "Reading", "Gaming", "Gardening"],
   "experiences": {
       "Western Digital" : {
