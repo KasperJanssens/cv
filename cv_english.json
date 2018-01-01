@@ -17,13 +17,13 @@
   "hobbies" : ["Tango", "Salsa", "Programming", "Reading", "Gaming", "Gardening"],
   "experiences": {
       "Western Digital" : {
+	"description" : "Amplidata is a startup in the big data storage sector. They have developed a software product to store and retrieve data at high speeds and high safety, meaning that the chance of losing data as a cause of disasters is nearly non-existent. Amplidata got acquired by Western Digital March 2015",
 	"roles" : [
         {
            "title": "OCaml developer",
            "from": "21/05/2013",
            "to": "01/09/2014",
-           "description": ["Amplidata is a startup in the big data storage sector. They have developed a software product to store and retrieve data at high speeds and high safety, meaning that the chance of losing data as a cause of disasters is nearly non-existent.",
-    "I was involved as a developer on the storage layer, which is mainly written in Ocaml. The main difficulties of the software lie in the technical complexity of the software itself, multiprocessing, high parallellism and the very high impact of bugs"]
+           "description": ["I was involved as a developer on the storage layer, which is mainly written in Ocaml. The main difficulties of the software lie in the technical complexity of the software itself, multiprocessing, high parallellism and the very high impact of bugs"]
         },
         {
            "title" : "Haskell developer",
@@ -39,12 +39,13 @@
       ]
      },
      "Cegeka" : {
+      "description" : "Cegeka is a service company where you can order a large IT project and they will execute it, on premise or not, according to the customer's wishes. They are very focused on agile and extreme programming",
       "roles" : [
       {
         "title" : "Java developer",
         "from" : "01/10/2010",
         "to" : "20/05/2013",
-        "description" : ["Cegeka works in an agile, extreme programming way. I worked in a team that implements business-web applications at Argenta, in the insurances and banking sector.", "The overarching approach of the software is a domain driven design (DDD), with several bounded contexts to let multiple teams work more or less independently on the same project."]
+        "description" : ["I worked in a team that implements business-web applications at Argenta, in the insurances and banking sector.", "The overarching approach of the software is a domain driven design (DDD), with several bounded contexts to let multiple teams work more or less independently on the same project."]
      },
      {
         "title" : "Android developer",
@@ -55,6 +56,7 @@
     ]
     },
      "Proximus" : {
+       "description" : "Proximus/Belgacom are one of two main players in the Belgian telecom business. They have loads of development and support teams and I worked in several of them",
        "roles" : [
        {
          "title": "Java Developer",
@@ -84,6 +86,7 @@
      ]
      },
      "ING" : {
+       "description" : "ING is a large Dutch bank. I was mainly involved in the part that manages the ATMs.",
        "roles" : [
        {
          "title": "C++ Developer",
@@ -95,6 +98,7 @@
        ]
      },
      "Thomson-Reuters": {
+       "description" : "I mainly worked for the part of Thomson-Reuters that is involved in trademarks. The service that they provide is best described as trademark protection, keeping an eye out for all published brands in the world and comparing them to other well known brands to see whether there could be infringement",
        "roles" : [
        {
          "title": "Java Developer",
@@ -111,6 +115,7 @@
      ]
      },
      "University Ghent": {
+       "description" : "University of Ghent",
        "roles" : [
        {
          "title": "Writing a master's these",
