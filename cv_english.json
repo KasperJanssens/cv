@@ -3,6 +3,7 @@
   "date of birth" : "12/06/1981",
   "address" : "Ottergemsesteenweg 354 9000 Gent",
   "telephone" : "+32 495 61 45 92",
+  "email" : "kasper@krondorsoft.com",
   "education" : {
     "degree" : "Civil engineer in computer sciences, major in computer architecture",
     "from" : "01/10/1999",
