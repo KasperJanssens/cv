@@ -16,14 +16,34 @@
      "french" : "very good",
      "dutch" : "mother tongue"
   },
+  "bio" : "I am an experienced developer with a fondness for strongly typed, compiled languages. I focus on application design and testability.",
   "programming languages" : {
-    "Java" : 80,
-    "C++" : 42,
-    "Haskell" : 70,
-    "OCaml" : 90,
-    "Scala" : 35,
-    "Kotlin" : 45
+    "Java" : {
+     "score" : 80,
+     "techs" : ["JSF", "AJAX", "J2EE", "Spring", "Hibernate", "JUnit", "Mockito", "Maven", "JMS"]
+    },
+    "C++" : {
+     "score" : 42,
+     "techs" : ["STL", "Purify"]
+    },
+    "Haskell" : {
+      "score" : 70,
+      "techs" : ["stack"]
+    },
+    "OCaml" : {
+      "score" : 90,
+      "techs" : ["opam", "batteries", "lwt"]
+    },
+    "Scala" : {
+      "score" : 35,
+      "techs" : []
+    },
+    "Kotlin" : {
+      "score" : 45,
+      "techs" : []
+    }
   },
+  "infrastructure" : ["Android", "Git", "Linux", "Jenkins", "Tomcat", "Oracle", "Postgres", "Sybase"],
   "methodologies" : {
     "Test driven design" : 90,
     "Agile/scrum" : 80,
