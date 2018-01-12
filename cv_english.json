@@ -62,10 +62,9 @@
 	"description" : "Amplidata is a startup in the big data storage sector. They have developed a software product to store and retrieve data at high speeds and high safety, meaning that the chance of losing data as a cause of disasters is nearly non-existent. Amplidata got acquired by Western Digital March 2015",
 	"roles" : [
         {
-           "title": "OCaml developer",
-           "from": "21/05/2013",
-           "to": "01/09/2014",
-           "description": ["I was involved as a developer on the storage layer, which is mainly written in Ocaml. The main difficulties of the software lie in the technical complexity of the software itself, multiprocessing, high parallellism and the very high impact of bugs"]
+           "title" : "Java Hadoop HDFS developer",
+           "from" : "01/09/2016",
+           "description" : ["Because of customer requirements to integrate with Hadoop we started development, together with a team at Microsoft, to write a HDFS extension so we could attach one of our storage systems to a datanode and use the data present in the storage system in Hadoop calculations."]
         },
         {
            "title" : "Haskell developer",
@@ -74,26 +73,27 @@
            "description" : ["Amplidata got acquired by Western Digital. During that time the development of the next-gen storage product started. Due to the high parallelism and fast io subsystem in the language we chose to write it in Haskell."]
         },
         {
-           "title" : "Java Hadoop HDFS developer",
-           "from" : "01/09/2016",
-           "description" : ["Because of customer requirements to integrate with Hadoop we started development, together with a team at Microsoft, to write a HDFS extension so we could attach one of our storage systems to a datanode and use the data present in the storage system in Hadoop calculations."]
+           "title": "OCaml developer",
+           "from": "21/05/2013",
+           "to": "01/09/2014",
+           "description": ["I was involved as a developer on the storage layer, which is mainly written in Ocaml. The main difficulties of the software lie in the technical complexity of the software itself, multiprocessing, high parallellism and the very high impact of bugs"]
         }
       ]
      },
      "Cegeka" : {
       "description" : "Cegeka is a service company where you can order a large IT project and they will execute it, on premise or not, according to the customer's wishes. They are very focused on agile and extreme programming",
       "roles" : [
-      {
-        "title" : "Java developer",
-        "from" : "01/10/2010",
-        "to" : "20/05/2013",
-        "description" : ["I worked in a team that implements business-web applications at Argenta, in the insurances and banking sector.", "The overarching approach of the software is a domain driven design (DDD), with several bounded contexts to let multiple teams work more or less independently on the same project."]
-     },
      {
         "title" : "Android developer",
         "from" : "01/09/2011",
         "to" : "15/03/2013",
         "description" : ["Cegeka's competence center are free to participate in and focus on a specific, usually 'new', technology. The approach is that a few people take out some time, mostly during off-hours, to discover the technology, and mainly to try to assert whether Cegeka would be capable of accepting a project with the technology. ", "I participated in the Android competence center and we developed a SocialText mobile application. SocialText is a Facebook-like application that mostly focuses on information sharing in a professional environment. They did not have any mobile applications, so the goal was to try to build one and if it turns out to be polished enough, sell it. A second team was working on an iOS application for SocialText at the same time."]
+     },
+      {
+        "title" : "Java developer",
+        "from" : "01/10/2010",
+        "to" : "20/05/2013",
+        "description" : ["I worked in a team that implements business-web applications at Argenta, in the insurances and banking sector.", "The overarching approach of the software is a domain driven design (DDD), with several bounded contexts to let multiple teams work more or less independently on the same project."]
      }
     ]
     },
