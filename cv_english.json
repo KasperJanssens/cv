@@ -93,7 +93,7 @@
         "title" : "Java developer",
         "from" : "01/10/2010",
         "to" : "20/05/2013",
-        "description" : ["I worked in a team that implements business-web applications at Argenta, in the insurances and banking sector.", "The overarching approach of the software is a domain driven design (DDD), with several bounded contexts to let multiple teams work more or less independently on the same project."]
+        "description" : ["I worked in a team that implements business-web applications at Argenta.", "The overarching approach of the software is a domain driven design (DDD), with several bounded contexts to let multiple teams work more or less independently on the same project."]
      }
     ]
     },
