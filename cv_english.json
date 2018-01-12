@@ -87,7 +87,7 @@
         "title" : "Android developer",
         "from" : "01/09/2011",
         "to" : "15/03/2013",
-        "description" : ["Cegeka's competence center are free to participate in and focus on a specific, usually 'new', technology. The approach is that a few people take out some time, mostly during off-hours, to discover the technology, and mainly to try to assert whether Cegeka would be capable of accepting a project with the technology. ", "I participated in the Android competence center and we developed a SocialText mobile application. SocialText is a Facebook-like application that mostly focuses on information sharing in a professional environment. They did not have any mobile applications, so the goal was to try to build one and if it turns out to be polished enough, sell it. A second team was working on an iOS application for SocialText at the same time."]
+        "description" : ["I participated in the Android competence center and we developed a SocialText mobile application. SocialText is a Facebook-like application that mostly focuses on information sharing in a professional environment, without mobile version. The goal was to try to build one and if it turns out to be polished enough, sell it. A second team was working on an iOS application for SocialText at the same time."]
      },
       {
         "title" : "Java developer",
@@ -104,14 +104,13 @@
          "title": "Java Developer",
          "from": "01/04/2008",
          "to": "30/09/2010",
-         "description" : ["When I arrived, Proximus was in a transition phase of going from a more point-to-point approach to a full-blown SOA approach to their middleware. Due to my experiences with SOA at Belgacom some time before, I was closely involved in this transition.",
-         "Technically, the focus is on using the Java-technologies on a WebLogic server, frameworks such as Hibernate, Spring, JAXB and Axis, Web Services in a SOA environment. Next to that, we also support and develop for legacy frameworks written in C++. The focus was mainly on the Java services and the integration with the overarching SOA architecture. We use J2EE and EJBs, mainly EJB 2."]
+         "description" : ["When I arrived, Proximus was in a transition phase of going from a more point-to-point approach to a full-blown SOA approach to their middleware. Due to my experiences with SOA at Belgacom some time before, I was closely involved in this transition. Next to that, we also support and develop for legacy frameworks written in C++."]
        },
        {
          "title": "Operational Architect",
          "from": "01/01/2007",
          "to": "31/11/2007",
-         "description" : ["I was responsible for the set up, maintenance and extension of the end to end testing infrastructure of Proximus NV. This was mainly the set up of the UNIX servers, the Oracle and Sybase databases and the firewalls and network configuration. Also the set up of the WebLogic Application servers and the software infrastructure was my responsibility.", "Next to that, I was also responsible for writing and maintaining tools to improve the way of working on the end to end testing environment. This was mainly Java and some C++."]
+         "description" : ["I was responsible for the set up, maintenance and extension of the end to end testing infrastructure of Proximus. This was mainly the set up of the UNIX servers, the Oracle and Sybase databases, the firewalls and network configuration, the Weblogic servers.", "Next to that, I was also responsible for writing and maintaining tools to improve the way of working on the end to end testing environment. This was mainly Java and some C++."]
        },
        {
          "title": "C/C++ developer",
