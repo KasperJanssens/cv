@@ -87,7 +87,7 @@
         "title" : "Android developer",
         "from" : "01/09/2011",
         "to" : "15/03/2013",
-        "description" : ["I participated in the Android competence center and we developed a SocialText mobile application. SocialText is a Facebook-like application that mostly focuses on information sharing in a professional environment, without mobile version. The goal was to try to build one and if it turns out to be polished enough, sell it. A second team was working on an iOS application for SocialText at the same time."]
+        "description" : ["I participated in the Android competence center and we developed a SocialText mobile application. SocialText is a Facebook-like application that mostly focuses on information sharing in a professional environment, without mobile version. The goal was to try to build one and if it turns out to be polished enough, sell it. A second team was working on an iOS version"]
      },
       {
         "title" : "Java developer",
@@ -110,19 +110,19 @@
          "title": "Operational Architect",
          "from": "01/01/2007",
          "to": "31/11/2007",
-         "description" : ["I was responsible for the set up, maintenance and extension of the end to end testing infrastructure of Proximus. This was mainly the set up of the UNIX servers, the Oracle and Sybase databases, the firewalls and network configuration, the Weblogic servers.", "Next to that, I was also responsible for writing and maintaining tools to improve the way of working on the end to end testing environment. This was mainly Java and some C++."]
+         "description" : ["I was responsible for the set up, maintenance and extension of the end to end testing infrastructure of Proximus. This was mainly the set up of the UNIX servers, the Oracle and Sybase databases, the firewalls and network configuration, the Weblogic servers.", "Next to that, I was also responsible for writing and maintaining some tools. This was mainly Java and some C++."]
        },
        {
          "title": "C/C++ developer",
          "from": "01/07/2006",
          "to": "31/12/2006",
-         "description" : ["I worked at the team responsible for Charging, as a developer for C-code, C++ code and Unix scripts.", "Technologically, it was a C/C++ project on Sun Unix, with extensive use of Oracle and Sybase database systems."]
+         "description" : ["I worked at the team responsible for Charging, as a developer for C-code, C++ code and Unix scripts. Technologically, it was a C/C++ project on Sun Unix, with extensive use of Oracle and Sybase database systems."]
        },
        {
          "title": "C/C++ developer",
          "from": "21/01/2005",
          "to": "30/06/2006",
-         "description" : ["I worked on the order management system middleware. This processed all transactions that were done in the belgacom shops.", "The application was set up as a service oriented architecture.", "The development of the application is completely in C and C++ on HP Unix. All database systems were Oracle."]
+         "description" : ["I worked on the order management system middleware. This processed all transactions that were done in the belgacom shops.", "The application was set up as a service oriented architecture. The development of the application is completely in C and C++ on HP Unix. All database systems were Oracle."]
        }
      ]
      },
@@ -134,7 +134,7 @@
          "from": "15/12/2007",
          "to": "31/03/2008",
          "description" : ["The application is meant to run on an ATM at offices of ING and is meant to perform all transactions except cash transaction, so no money withdrawal.",
-         "My role in the process was the analysis, design and implementation of the “hardware” part of the application, so the drivers for the card reader, the pin pad, the touch screen and the printer.","The end result was a multi-threaded COM-library, providing message queuing for the asynchronous operations, with several ways of usability provided towards the users of this COM library."]
+         "My role in the process was the analysis, design and implementation of the “hardware” part of the application, so the drivers for the card reader, the pin pad, the touch screen and the printer."]
        }
        ]
      },
