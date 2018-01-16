@@ -49,14 +49,14 @@
     "Test driven design" : {
        "score" : 90
     },
-    "Agile/scrum" : { "score": 80 },
+    "Functional programming" : { "score": 95 },
     "Extreme Progrmaming" : { "score": 85 },
+    "Agile/scrum" : { "score": 80 },
+    "OO programming" : { "score": 80 },
+    "REST" :{  "score": 80 },
     "Domain driven design" : { "score": 75 },
     "SOA" : { "score": 70 },
-    "REST" :{  "score": 80 },
-    "Design Patterns" : { "score": 70 },
-    "Object oriented programming" : { "score": 80 },
-    "Functional programming" : { "score": 95 }
+    "Design Patterns" : { "score": 70 }
   },
   "hobbies" : ["Tango", "Salsa", "Programming", "Reading", "Gaming", "Gardening"],
   "experiences": {
