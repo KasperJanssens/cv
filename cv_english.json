@@ -46,10 +46,8 @@
   },
   "infrastructure" : ["Android", "Git", "Linux", "Jenkins", "Tomcat", "Oracle", "Postgres", "Sybase"],
   "methodologies" : {
-    "Test driven design" : {
-       "score" : 90
-    },
     "Functional programming" : { "score": 95 },
+    "Test driven design" : { "score" : 90 },
     "Extreme Programming" : { "score": 85 },
     "Agile/scrum" : { "score": 80 },
     "OO programming" : { "score": 80 },
