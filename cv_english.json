@@ -46,15 +46,17 @@
   },
   "infrastructure" : ["Android", "Git", "Linux", "Jenkins", "Tomcat", "Oracle", "Postgres", "Sybase"],
   "methodologies" : {
-    "Test driven design" : 90,
-    "Agile/scrum" : 80,
-    "Extreme Progrmaming" : 85,
-    "Domain driven design" : 75,
-    "SOA" : 70,
-    "REST" : 80,
-    "Design Patterns" : 70,
-    "Object oriented programming" : 80,
-    "Functional programming" : 95
+    "Test driven design" : {
+       "score" : 90
+    },
+    "Agile/scrum" : { "score": 80 },
+    "Extreme Progrmaming" : { "score": 85 },
+    "Domain driven design" : { "score": 75 },
+    "SOA" : { "score": 70 },
+    "REST" :{  "score": 80 },
+    "Design Patterns" : { "score": 70 },
+    "Object oriented programming" : { "score": 80 },
+    "Functional programming" : { "score": 95 }
   },
   "hobbies" : ["Tango", "Salsa", "Programming", "Reading", "Gaming", "Gardening"],
   "experiences": {
