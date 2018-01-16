@@ -19,28 +19,28 @@
   },
   "bio" : "I am an experienced developer with a fondness for strongly typed, compiled languages. I focus on application design and testability.",
   "programming languages" : {
+    "OCaml" : {
+      "score" : 90,
+      "techs" : ["opam", "batteries", "lwt"]
+    },
     "Java" : {
      "score" : 80,
      "techs" : ["JSF", "AJAX", "J2EE", "Spring", "Hibernate", "JUnit", "Mockito", "Maven", "JMS"]
-    },
-    "C++" : {
-     "score" : 42,
-     "techs" : ["STL", "Purify"]
     },
     "Haskell" : {
       "score" : 70,
       "techs" : ["stack"]
     },
-    "OCaml" : {
-      "score" : 90,
-      "techs" : ["opam", "batteries", "lwt"]
+    "Kotlin" : {
+      "score" : 45,
+      "techs" : []
+    },
+    "C++" : {
+     "score" : 42,
+     "techs" : ["STL", "Purify"]
     },
     "Scala" : {
       "score" : 35,
-      "techs" : []
-    },
-    "Kotlin" : {
-      "score" : 45,
       "techs" : []
     }
   },
