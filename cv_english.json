@@ -25,7 +25,7 @@
     },
     "Java" : {
      "score" : 80,
-     "techs" : ["JSF", "AJAX", "J2EE", "Spring", "Hibernate", "JUnit", "Mockito", "Maven", "JMS"]
+     "techs" : ["Spring", "Hibernate", "JUnit", "Mockito", "Maven"]
     },
     "Haskell" : {
       "score" : 70,
