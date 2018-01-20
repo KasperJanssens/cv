@@ -45,17 +45,7 @@
     }
   },
   "infrastructure" : ["Android", "Git", "Linux", "Jenkins", "Tomcat", "Oracle", "Postgres", "Sybase"],
-  "methodologies" : {
-    "Functional programming" : { "score": 95 },
-    "Test driven design" : { "score" : 90 },
-    "Extreme Programming" : { "score": 85 },
-    "Agile/scrum" : { "score": 80 },
-    "OO programming" : { "score": 80 },
-    "REST" :{  "score": 80 },
-    "Domain driven design" : { "score": 75 },
-    "SOA" : { "score": 70 },
-    "Design Patterns" : { "score": 70 }
-  },
+  "methodologies" : [ "Functional programming" , "Test driven design" , "Extreme Programming" , "Agile/scrum" , "OO programming" , "REST" , "Domain driven design" , "SOA" , "Design Patterns"],
   "hobbies" : ["Tango", "Salsa", "Programming", "Reading", "Gaming", "Gardening"],
   "experiences": {
       "Western Digital" : {
