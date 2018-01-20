@@ -10,7 +10,7 @@
     "from" : "01/10/1999",
     "to": "30/06/2004",
     "school" : "University of Ghent",
-    "these" : ["Network processors are devices specifically designed to process network traffic. This is done through the extensive use of multiprocessing and multithreading. I implemented a firewall on the Intel IXP1200 network processor, which has six processors that do the work, and one processor that controls the other six.", "Each of the processors can run four threads, with easy context switching, one clock cycle, through a small amount of registers. This unfortunately limits the amount of variables used in programs, making very careful programming an absolute necessity.", "The controlling processor, or core, is responsible for handling all exceptions and tasks and contains the control structure. It is programmed in C. The other processors were programmed in assembler. All programming was pure embedded on the device.", "I implemented a firewall on this device, using Netfilter as a guidance beacon."]
+    "these" : ["I implemented a firewall on the Intel IXP1200 network process, using Netfilter as a guidance beacon. This processor has six cores that do the work, and one core that controls the other six.", "Each of the cores can run four threads, with easy context switching, one clock cycle, through a small amount of registers. This unfortunately limits the amount of variables used in programs, making very careful programming an absolute necessity.", "The controlling core is responsible for handling all exceptions and tasks and is programmed in C. The other processors were programmed in assembler. "]
   },
   "languages" : {
      "english" : "excellent",
@@ -70,7 +70,7 @@
            "title" : "Haskell developer",
            "from" : "01/09/2014",
            "to" : "01/09/2016",
-           "description" : ["Amplidata got acquired by Western Digital. During that time the development of the next-gen storage product started. Due to the high parallelism and fast io subsystem in the language we chose to write it in Haskell."]
+           "description" : [" Development of the next-gen storage product (the one that used to be written in OCaml). Due to the high parallelism and fast io subsystem in the language we chose to write it in Haskell."]
         },
         {
            "title": "OCaml developer",
@@ -151,7 +151,7 @@
          "title": "C++ Developer",
          "from": "15/12/2007",
          "to": "31/11/2008",
-         "description" : ["Developing a self learning neural network for image recognition.", "The neural network needed to be able to recognize different fonts of letters, different alphabets(for example for Chinese publications) and be able to treat a lot of skew and dirt specks on the publications, as some are really low quality print, and get even lower quality after scanning them in.", "This was an early machine learning project, with mixed results"]
+         "description" : ["Developing a self learning neural network for image recognition. The neural network needed to be able to recognize different fonts of letters, different alphabets (for example for Chinese publications) and be able to treat a lot of skew and dirt specks on the publications, as some are really low quality print, and get even lower quality after scanning them in."]
        }
      ]
      }
