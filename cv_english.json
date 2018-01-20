@@ -1,8 +1,8 @@
 {
   "name" : "Kasper Janssens",
   "personal" : {
-     "dob" : "12 June 1981",
-     "address" : "Ottergemsesteenweg 354, 9000 Gent"
+     "address" : "Ottergemsesteenweg 354, 9000 Gent",
+     "dob" : "12 June 1981"
   },
   "telephone" : "+32 495 61 45 92",
   "email" : "kasper@krondorsoft.com",
