@@ -51,7 +51,7 @@
   "hobbies" : ["Tango", "Salsa", "Programming", "Reading", "Gaming", "Gardening"],
   "experiences": {
       "Western Digital" : {
-	"description" : "Amplidata is a startup in the big data storage sector. They have developed a software product to store and retrieve data at high speeds and high safety, meaning that the chance of losing data as a cause of disasters is nearly non-existent. Amplidata got acquired by Western Digital March 2015",
+	"description" : "Amplidata is a startup in the big data storage sector. They have developed a software product to store and retrieve data at high speeds and high safety, meaning that the chance of losing data as a cause of disasters is nearly non-existent. Amplidata got acquired by Western Digital March 2015.",
 	"roles" : [
         {
            "title" : "Java Hadoop HDFS developer",
@@ -68,18 +68,18 @@
            "title": "OCaml developer",
            "from": "21/05/2013",
            "to": "01/09/2014",
-           "description": ["I was involved as a developer on the storage layer, which is mainly written in Ocaml. The main difficulties of the software lie in the technical complexity of the software itself, multiprocessing, high parallellism and the very high impact of bugs"]
+           "description": ["I was involved as a developer on the storage layer, which is mainly written in Ocaml. The main difficulties of the software lie in the technical complexity of the software itself, multiprocessing, high parallellism and the very high impact of bugs."]
         }
       ]
      },
      "Cegeka" : {
-      "description" : "Cegeka is a service company where you can order a large IT project and they execute it, on premise or not, according to the customer's wishes. They are very focused on agile and extreme programming",
+      "description" : "Cegeka is a service company where you can order a large IT project and they execute it, on premise or not, according to the customer's wishes. They are very focused on agile and extreme programming.",
       "roles" : [
      {
         "title" : "Android developer",
         "from" : "01/09/2011",
         "to" : "15/03/2013",
-        "description" : ["I participated in the Android competence center and we developed a SocialText mobile application. SocialText is a Facebook-like application that mostly focuses on information sharing in a professional environment, without mobile version. The goal was to try to build one and if it turns out to be polished enough, sell it. A second team was working on an iOS version"]
+        "description" : ["I participated in the Android competence center and we developed a SocialText mobile application. SocialText is a Facebook-like application that mostly focuses on information sharing in a professional environment, without mobile version. The goal was to try to build one and if it turns out to be polished enough, sell it. A second team was working on an iOS version."]
      },
       {
         "title" : "Java developer",
@@ -90,7 +90,7 @@
     ]
     },
      "Proximus" : {
-       "description" : "Proximus/Belgacom are one of two main players in the Belgian telecom business. They have loads of development and support teams and I worked in several of them",
+       "description" : "Proximus/Belgacom are one of two main players in the Belgian telecom business. They have loads of development and support teams and I worked in several of them.",
        "roles" : [
        {
          "title": "Java Developer",
@@ -131,13 +131,13 @@
        ]
      },
      "Thomson-Reuters": {
-       "description" : "I mainly worked for the part of Thomson-Reuters that is involved in trademarks. The service that they provide is best described as trademark protection, keeping an eye out for all published brands in the world and comparing them to other well known brands to see whether there could be infringement",
+       "description" : "I mainly worked for the part of Thomson-Reuters that is involved in trademarks. The service that they provide is best described as trademark protection, keeping an eye out for all published brands in the world and comparing them to other well known brands to see whether there could be infringement.",
        "roles" : [
        {
          "title": "Java Developer",
          "from": "01/10/2008",
          "to": "31/01/2009",
-         "description" : ["Migrating a C++ fat client to a Java Swing fat client. In parallel with my java dev job at Proximus"]
+         "description" : ["Migrating a C++ fat client to a Java Swing fat client. In parallel with my java dev job at Proximus."]
        },
        {
          "title": "C++ Developer",
