@@ -60,7 +60,7 @@
         {
            "title" : "Streaming Containerization in Java",
            "from" : "01/07/2018",
-           "from" : "04/06/2019",
+           "to" : "04/06/2019",
            "description" : ["A server to put in front of the current object store. The server should collect smaller objects and make a larger containerized object out of it to pass it to the object store. The driver of the project is the fact that the object store can handle large objects well, but a lot of smaller objects tend to drastically drop performance. The containerization server adds a little latency to save on input/output operations on disk, to increase the total throughput on the backend object server."]
         },
         {
