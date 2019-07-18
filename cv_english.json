@@ -26,14 +26,18 @@
       "techs" : ["opam", "batteries", "lwt"]
     },
     "Java" : {
-     "score" : 80,
-     "techs" : ["Spring", "Hibernate", "JUnit", "Mockito", "Maven"]
+     "score" : 90,
+     "techs" : ["Spring", "Hibernate", "JUnit", "Mockito", "Maven", "rx-java"]
     },
     "Haskell" : {
       "score" : 70,
       "techs" : ["stack"]
     },
     "Kotlin" : {
+      "score" : 65,
+      "techs" : []
+    },
+    "Rust" : {
       "score" : 45,
       "techs" : []
     },
@@ -53,6 +57,11 @@
       "Western Digital" : {
 	"description" : "Amplidata is a startup in the big data storage sector. They have developed a software product to store and retrieve data at high speeds and high safety, meaning that the chance of losing data as a cause of disasters is nearly non-existent. Amplidata got acquired by Western Digital March 2015.",
 	"roles" : [
+        {
+           "title" : "Streaming Containerization in Java",
+           "from" : "01/07/2018",
+           "description" : ["A server to put in front of the current object store. The server should collect smaller objects and make a larger containerized object out of it to pass it to the object store. The driver of the project is the fact that the object store can handle large objects well, but a lot of smaller objects tend to drastically drop performance. The containerization server adds a little latency to save on input/output operations on disk, to increase the total throughput on the backend object server."]
+        },
         {
            "title" : "Java Hadoop HDFS developer",
            "from" : "01/09/2016",
