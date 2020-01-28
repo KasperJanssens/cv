@@ -14,7 +14,7 @@
     "school" : "University of Ghent",
     "these" : ["I implemented a firewall on the Intel IXP1200 network process, using Netfilter as a guidance beacon. This processor has six cores that do the work, and one core that controls the other six.", "Each of the cores can run four threads, with easy context switching, one clock cycle, through a small amount of registers. This unfortunately limits the amount of variables used in programs, making very careful programming an absolute necessity.", "The controlling core is responsible for handling all exceptions and tasks and is programmed in C. The other processors were programmed in assembler. "]
   },
-  "bio" : "I am an experienced developer with a fondness for strongly typed, compiled languages. I focus on application design and testability.",
+  "bio" : "I am an experienced developer with a fondness for strongly typed, compiled languages. I focus on application design and testability. Passionate about open source, Hadoop committer, big data expert",
   "hobbies" : ["Tango", "Salsa", "Programming", "Reading", "Gaming", "Gardening"],
   "experiences": {
       "Western Digital" : {
@@ -45,7 +45,81 @@
            "description": ["The core product, the object store. The main difficulties of the software lie in the technical complexity of the software itself, multiprocessing, high parallellism and the very high impact of bugs. Achieved performance goals and hardened the product.", "OCaml, ounit, coq, distributed programming, high throughput"]
         }
       ]
+     },
+     "Cegeka" : {
+      "description" : "Cegeka is a service company the implements large business-web projects on demand and on site. They are very focused on agile, extreme programming and DDD. The complexity often lies in understanding the business context and managing changing requirements in the complex context. Most of my time over there was spent in a banking and insurances environment.",
+      "roles" : [
+     {
+        "title" : "Android developer",
+        "from" : "01/09/2011",
+        "to" : "15/03/2013",
+        "description" : ["I participated in the Android competence center and we developed a SocialText mobile application. SocialText is a Facebook-like application that mostly focuses on information sharing in a professional environment, without mobile version. The goal was to try to build one and if it turns out to be polished enough, sell it. A second team was working on an iOS version.", "Android, java, mobile"]
+     },
+      {
+        "title" : "Java developer",
+        "from" : "01/10/2010",
+        "to" : "20/05/2013",
+        "description" : [" Worked in the agile teams concerned with insurance and office management applications at Argenta. The challenge was having about 30 devs working on the same code base. Developed on the core products and helped achieving a better way of collaborating with all those developers on one code base through a better use of CI/CD and source versioning.", "spring, hibernate, javascript, java, oracle, junit, maven, gradle, jenkins"]
      }
+    ]
+    },
+    "Proximus" : {
+      "description" : "Proximus/Belgacom are one of two main players in the Belgian telecom business. I worked on their middleware and on their end to end test infrastructure. The challenges were mainly the size of the company and the amount of stake holders that need to be involved",
+      "roles" : [
+      {
+        "title": "Java Developer",
+        "from": "01/04/2008",
+        "to": "30/09/2010",
+        "description" : ["When I arrived, Proximus was in a transition phase of going from a more point-to-point approach to a full-blown SOA approach to their middleware. The challenge here was communication. Achieved better understanding between the business teams and the middleware and a more reliable middleware experience as a result.", "Java, Junit, Oracle, Tibco message queue, maven, jenkins, weblogic, functional analysis, technical analysis, architecture"]
+      },
+      {
+        "title": "Operational Architect",
+        "from": "01/01/2007",
+        "to": "31/11/2007",
+        "description" : ["Managing the end to end testing infrastructure of Proximus. This was mainly the set up of the UNIX servers, the Oracle and Sybase databases, the firewalls and network configuration, the Weblogic servers. The challenge was the large amount of stake holders with conflicting interests", "Achieved a smooth end to end testing process with a minimum amount of delays in provisioning."]
+      },
+      {
+        "title": "C/C++ developer",
+        "from": "01/07/2006",
+        "to": "31/12/2006",
+        "description" : ["I worked at the team responsible for Charging.", "C++, Unix, Oracle, Sybase, technical analysis"]
+      },
+      {
+        "title": "C/C++ developer",
+        "from": "21/01/2005",
+        "to": "30/06/2006",
+        "description" : ["I worked on the order management system middleware. This processed all transactions that were done in the belgacom shops.", "Achieved adequate performance for the shops to be able to run normally even during the busy periods", "C++, Unix, Oracle, functional analysis, technical analysis"]
+      }
+    ]
+    },
+    "ING" : {
+      "description" : "ING is a large Dutch bank. I was mainly involved in the part that manages the ATMs. The challenge here was the time pressure as there was only 4 months available for the application to be finished and no other developer than me could be recruited in time to be added to the team. As such I was the only developer and had to get the whole project done. The application is meant to run on an ATM at offices of ING and is meant to perform all transactions except cash transaction, so no money withdrawal.",
+      "roles" : [
+      {
+        "title": "C++ Developer",
+        "from": "15/12/2007",
+        "to": "31/03/2008",
+        "description" : [ "My role in the process was the analysis, design and implementation of the “hardware” part of the application, so the drivers for the card reader, the pin pad, the touch screen and the printer. Achieved fully working software on spec with two weeks left on the time budget", "C++, windows, hardware"]
+      }
+      ]
+    },
+    "Thomson-Reuters": {
+      "description" : "I mainly worked for the part of Thomson-Reuters that is involved in trademarks. The service that they provide is best described as trademark protection, keeping an eye out for all published brands in the world and comparing them to other well known brands to see whether there could be infringement.",
+      "roles" : [
+      {
+        "title": "Java Developer",
+        "from": "01/10/2008",
+        "to": "31/01/2009",
+        "description" : ["Migrating a C++ fat client to a Java Swing fat client. In parallel with my java dev job at Proximus."]
+      },
+      {
+        "title": "C++ Developer",
+        "from": "15/12/2007",
+        "to": "31/11/2008",
+        "description" : ["Developing a self learning neural network for image recognition. The neural network needed to be able to recognize different fonts of letters, different alphabets (for example for Chinese publications) and be able to treat a lot of skew and dirt specks on the publications, as some are really low quality print, and get even lower quality after scanning them in."]
+      }
+    ]
+    }
   }
 }
 
