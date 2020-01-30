@@ -17,6 +17,15 @@
   "bio" : "I am an experienced developer with a fondness for strongly typed, compiled languages. I focus on application design and testability. Passionate about open source, Hadoop committer, big data expert",
   "hobbies" : ["Tango", "Salsa", "Programming", "Reading", "Gaming", "Gardening"],
   "experiences": {
+      "Crescent" : {
+        "description" : "Crescent is an IoT software provider who develops custom software for IoT environments, in Scala",
+        "roles" : {
+           "title" : "Scala Team Lead and Architect",
+           "from" : "01/11/2019",
+           "to" : "14/01/2020",
+           "description" : [" Team lead and architect. Designed and developed custom scala software","Java, Graphql, ReasonML, React, docker, Google Cloud Platform, gRPC"]
+        }
+      },
       "Western Digital" : {
 	"description" : "Amplidata is a startup in the big data storage sector. They have developed a software product to store and retrieve data at high speeds and high safety, meaning that the chance of losing data as a cause of disasters is nearly non-existent. Amplidata got acquired by Western Digital March 2015. The architecture is that of a large distributed system, with lots of smaller servers needing to work together, perform master election, achieve high throughput through utilising multiple machines and their full network bandwidth. ",
 	"roles" : [
@@ -24,13 +33,13 @@
            "title" : "Streaming Containerization in Java",
            "from" : "01/07/2018",
            "to" : "04/06/2019",
-           "description" : ["Like a lot of the object storage architectures, disaster recovery tends to be proportional to the size of the metadata and as such the size of the managed objects. The goal of this project is to keep the amount of managed objects small through containerization, but of course still being able to retrieve the smaller objects. Targets got achieved with minimal latency.","Java, rx-java, parallel and concurrent programming, maven, clover, jenkins, junit, gRPC"]
+           "description" : ["Like a lot of the object storage architectures, disaster recovery tends to be proportional to the size of the metadata and as such the size of the managed objects. The goal of this project is to keep the amount of managed objects small through containerization, but of course still being able to retrieve the smaller objects. Targets got achieved with minimal latency.","Java, rx-java, parallel and concurrent programming, maven, clover, jenkins, junit, gRPC, docker"]
         },
         {
            "title" : "Java Hadoop HDFS developer",
            "from" : "01/09/2016",
            "to" : "30/06/2018",
-           "description" : ["Because of customer requirements to integrate the data storage with Hadoop we started development, together with a team at Microsoft, to write a HDFS extension so we could attach one of our storage systems to a datanode and use the data present in the storage system in Hadoop calculations. Contributed to the open source project, contributions merged in to trunk of Hadoop", "Java, maven, junit, gRPC, Avro, Hadoop"]
+           "description" : ["Because of customer requirements to integrate the data storage with Hadoop we started development, together with a team at Microsoft, to write a HDFS extension so we could attach one of our storage systems to a datanode and use the data present in the storage system in Hadoop calculations. Contributed to the open source project, contributions merged in to trunk of Hadoop", "Java, maven, junit, gRPC, Avro, Hadoop, docker"]
         },
         {
            "title" : "Haskell developer",
@@ -42,7 +51,7 @@
            "title": "OCaml developer",
            "from": "21/05/2013",
            "to": "01/09/2014",
-           "description": ["The core product, the object store. The main difficulties of the software lie in the technical complexity of the software itself, multiprocessing, high parallellism and the very high impact of bugs. Achieved performance goals and hardened the product.", "OCaml, ounit, coq, distributed programming, high throughput"]
+           "description": ["The core product, the object store. The main difficulties of the software lie in the technical complexity of the software itself, multiprocessing, high parallellism and the very high impact of bugs. Achieved performance goals and hardened the product.", "OCaml, ounit, coq, distributed programming, high throughput, docker"]
         }
       ]
      },
