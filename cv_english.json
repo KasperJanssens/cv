@@ -56,19 +56,19 @@
            "title" : "Java Hadoop HDFS developer",
            "from" : "01/09/2016",
            "to" : "30/06/2018",
-           "description" : ["Because of customer requirements to integrate the data storage with Hadoop we started development, together with a team at Microsoft, to write a HDFS extension so we could attach one of our storage systems to a datanode and use the data present in the storage system in Hadoop calculations. Contributed to the open source project, contributions merged in to trunk of Hadoop", "Java, maven, junit, gRPC, Avro, Hadoop, docker"]
+           "description" : ["Because of customer requirements to integrate the data storage with Hadoop we started development, together with a team at Microsoft, to write a HDFS extension so we could attach one of our storage systems to a datanode and use the data present in the storage system in Hadoop calculations. Contributed to the open source project, contributions merged in to trunk of Hadoop", "Java, maven, junit, gRPC, Avro, Hadoop, docker, git"]
         },
         {
            "title" : "Haskell developer",
            "from" : "01/09/2014",
            "to" : "01/09/2016",
-           "description" : [" Development of the next-gen storage product (the one that used to be written in OCaml). Due to the high parallelism and fast io subsystem in the language we chose to write it in Haskell.", "Haskell, mio, distributed programming, high troughput, resource management"]
+           "description" : [" Development of the next-gen storage product (the one that used to be written in OCaml). Due to the high parallelism and fast io subsystem in the language we chose to write it in Haskell.", "Haskell, mio, distributed programming, high troughput, resource management, git"]
         },
         {
            "title": "OCaml developer",
            "from": "21/05/2013",
            "to": "01/09/2014",
-           "description": ["The core product, the object store. The main difficulties of the software lie in the technical complexity of the software itself, multiprocessing, high parallellism and the very high impact of bugs. Achieved performance goals and hardened the product.", "OCaml, ounit, coq, distributed programming, high throughput, docker"]
+           "description": ["The core product, the object store. The main difficulties of the software lie in the technical complexity of the software itself, multiprocessing, high parallellism and the very high impact of bugs. Achieved performance goals and hardened the product.", "OCaml, ounit, coq, distributed programming, high throughput, docker, git, mercurial, nosql"]
         }
       ]
      },
@@ -85,7 +85,7 @@
         "title" : "Java developer",
         "from" : "01/10/2010",
         "to" : "20/05/2013",
-        "description" : [" Worked in the agile teams concerned with insurance and office management applications at Argenta. The challenge was having about 30 devs working on the same code base. Developed on the core products and helped achieving a better way of collaborating with all those developers on one code base through a better use of CI/CD and source versioning.", "spring, hibernate, javascript, java, oracle, junit, maven, gradle, jenkins"]
+        "description" : [" Worked in the agile teams concerned with insurance and office management applications at Argenta. The challenge was having about 30 devs working on the same code base. Developed on the core products and helped achieving a better way of collaborating with all those developers on one code base through a better use of CI/CD and source versioning.", "spring, hibernate, javascript, java, oracle, junit, maven, gradle, jenkins, git, XP, TDD, DDD, Hibernate, JDBC, Mockito, Webdriver, Selenium, Spring MVC, log4j, Spring WebFlow, REST, sql, Hibernate, nexus, sonar, CQRS"]
      }
     ]
     },
@@ -96,7 +96,7 @@
         "title": "Java Developer",
         "from": "01/04/2008",
         "to": "30/09/2010",
-        "description" : ["When I arrived, Proximus was in a transition phase of going from a more point-to-point approach to a full-blown SOA approach to their middleware. The challenge here was communication. Achieved better understanding between the business teams and the middleware and a more reliable middleware experience as a result.", "Java, Junit, Oracle, Tibco message queue, maven, jenkins, weblogic, functional analysis, technical analysis, architecture"]
+        "description" : ["When I arrived, Proximus was in a transition phase of going from a more point-to-point approach to a full-blown SOA approach to their middleware. The challenge here was communication. Achieved better understanding between the business teams and the middleware and a more reliable middleware experience as a result.", "Java, Junit, Oracle, Tibco message queue,  XML, XSD, XSLT, maven, jenkins, weblogic, functional analysis, technical analysis, architecture, JAXB, JAX-WS, SOAP, REST, UML, JMS, log4j, sql, Hibernate"]
       },
       {
         "title": "Operational Architect",
