@@ -18,12 +18,29 @@
   "hobbies" : ["Tango", "Salsa", "Programming", "Reading", "Gaming", "Gardening"],
   "experiences": {
       "Crescent" : {
-        "description" : "Crescent is an IoT software provider who develops custom software for IoT environments, in Scala",
+        "description" : "Crescent is an IoT software provider that develops custom software for IoT environments, in Scala",
         "roles" : {
            "title" : "Scala Team Lead and Architect",
            "from" : "01/11/2019",
            "to" : "14/01/2020",
            "description" : [" Team lead and architect. Designed and developed custom scala software","Java, Graphql, ReasonML, React, docker, Google Cloud Platform, gRPC"]
+        }
+      },
+      "Cargill" : {
+        "description" : "Cargill is a big food concern. Their R&D department needed some software to complement their lab software to make it easier to launch and manage experiments. The experiments are done through pieces of python code that make calls to a web server that my application provides. The web server offers a UI and also calls into the existing lab software through REST. Fixed price project. Achieved a higher comfort for the R&D engineers and far less failed test runs (the exact percentage is still under calculation)",
+        "roles" : {
+           "title" : "Everything",
+           "from" : "23/01/2020",
+           "to" : "24/02/2020",
+           "description" : ["React, docker, sqlite, Haskell"]
+        }
+      },
+      "Open IO" : {
+        "description" : "Open IO is a company that makes an open source object storage system. They want an automatic performance test setup to be able to run performance tests on major and minor code changes, as well as have the possibility to run performance tests on large realistic use cases to use in marketing. The latter was my main focus. Cloud compute machines are being used to quickly ramp up performance tests and specific realistic use cases at a feasible price point, in this case google cloud. Achieved automatic setup of small cluster.",
+        "roles" : {
+           "title" : "Performance test devops engineer",
+           "from" : "25/02/2020",
+           "description" : ["Ansible, Python, Google cloud, terraform, docker"]
         }
       },
       "Western Digital" : {
