@@ -17,11 +17,29 @@
   "bio" : "I am an experienced developer with a fondness for strongly typed, compiled languages. I focus on application design and testability. Passionate about open source, Hadoop committer, big data expert",
   "hobbies" : ["Tango", "Salsa", "Programming", "Reading", "Gaming", "Gardening"],
   "experiences": {
+      "Unifly" : {
+        "description" : "Unifly has a platform to schedule and execute drone flights, taking into account other air traffic as well as temporary impediments in the air such as large cranes. They needed to transition from doing a lot of project work to making a more structured project. Their current code base needed to be cleaned up and culled of all non essential stuff. My task was to plan and execute this clean up/culling. After this, I needed to assist in finetuning the product, taking into account cost of operation.",
+        "roles" :[ {
+           "title" : "Product architect",
+           "from" : "01/11/2020",
+           "description" : ["Java, Spring, Gradle, docker, devops, plant, structure101"]
+        }]
+      },
+      "Barco" : {
+        "description" : "Barco sells a product that is ued in operation rooms. They deliver hardware and software to manage camera-assisted surgeries. The software needs to steer the hardware, select the camera feeds for instance, and make sure that the correct feed is visible on the correct screen, with extremely low latency. Latency can really screw up a surgery because the surgeon then gets the wrong feedback on camera",
+        "roles" :[ {
+           "title" : "Software engineer",
+           "from" : "24/04/2020",
+           "to" : "31/10/2020",
+           "description" : ["Java, Spring, Maven, docker"]
+        }]
+      },
       "Open IO" : {
         "description" : "Open IO is a company that makes an open source object storage system. They want an automatic performance test setup to be able to run performance tests on major and minor code changes, as well as have the possibility to run performance tests on large realistic use cases to use in marketing. The latter was my main focus. Cloud compute machines are being used to quickly ramp up performance tests and specific realistic use cases at a feasible price point, in this case google cloud. Achieved automatic setup of small cluster.",
         "roles" :[ {
            "title" : "Performance test devops engineer",
            "from" : "25/02/2020",
+           "to" : "25/03/2020",
            "description" : ["Ansible, Python, Google cloud, terraform, docker"]
         }]
       },
